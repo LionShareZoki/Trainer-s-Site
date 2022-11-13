@@ -69,14 +69,14 @@ function Footer() {
           </div> */}
           <div class="footer-link-items">
             <h2>Kontakt</h2>
-            <Link to="/">+385 97 663 1919</Link>
+            <Link to="/">+385 99 999 9999</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>Mreže</h2>
-            <a href="https://www.instagram.com/ivan_rajcic/">Instagram</a>
-            <a href="https://www.facebook.com/Fitpromotion.hr">Facebook</a>
+            <a href="https://www.instagram.com">Instagram</a>
+            <a href="https://www.facebook.com">Facebook</a>
           </div>
         </div>
       </div>
@@ -87,7 +87,7 @@ function Footer() {
               <img className="logo" src={logo} alt="" />
             </Link>
           </div>
-          <small class="website-rights">FitProMotion © 2022</small>
+          <small class="website-rights">Trainer for You © 2022</small>
           <div class="social-icons">
             <a
               href="https://www.facebook.com/Fitpromotion.hr"

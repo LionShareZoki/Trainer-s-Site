@@ -43,6 +43,7 @@ video {
   margin-right: 20%;
   margin-top: 25%;
   margin-bottom: 20%;
+  transform: scale(1);
 }
 
 /* .hero-container > h1 {
