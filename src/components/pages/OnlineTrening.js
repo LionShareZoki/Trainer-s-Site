@@ -26,6 +26,7 @@ import whatsapp from "../../imgs/whatsapp.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { motion } from "framer-motion";
 
 const OnlineTrening = (props) => {
   useEffect(() => {
@@ -33,7 +34,11 @@ const OnlineTrening = (props) => {
   }, []);
 
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0.9 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0.9 }}
+    >
       <div className="wrapper1">
         <div>
           <h1 className="heading2">KAKO IZGLEDA ONLINE SURADNJA?</h1>
@@ -195,7 +200,7 @@ const OnlineTrening = (props) => {
       </div>
 
       <Footer />
-    </div>
+    </motion.div>
   );
 };
 
